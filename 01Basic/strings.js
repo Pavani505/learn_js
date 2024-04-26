@@ -14,3 +14,8 @@ console.log(stringArray2.length)
 console.log(str.includes('are'))
 console.log(str.toUpperCase())
 console.log(strObject.toLowerCase())
+
+let word = str.split(' ')
+word.forEach(i =>{
+    console.log(i)
+})
