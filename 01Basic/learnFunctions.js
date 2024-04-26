@@ -9,3 +9,13 @@ let add2 = function(){
     console.log(3+3)
 }
 add2()
+
+let add3 = function(a, b){
+    console.log(a+b)
+}
+add3(1,2)
+
+function add4(a,b){
+    console.log(a+b)
+}
+add4(10,11)

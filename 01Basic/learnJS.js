@@ -7,5 +7,7 @@ console.log("-------------------------------------------")
 
 // how to add value to a variable and concatenate strings with a variable
 let myName = 'Andre';
+let skipLine = '\n'
 console.log("My name is "+myName);
-console.log(`My name is ${myName}`);
+console.log(`My name is ${myName} ${skipLine}`);
+// console.log('\n') skip the line
